@@ -1,0 +1,14 @@
+rules_version = '2';
+
+// Bazario never talks to Firestore directly from the browser — every read and
+// write goes through Next.js server code using the Firebase Admin SDK, which
+// bypasses these rules entirely. This file just makes sure that if anyone
+// tries to hit Firestore directly with a client SDK (e.g. using a stolen
+// apiKey), nothing is readable or writable.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

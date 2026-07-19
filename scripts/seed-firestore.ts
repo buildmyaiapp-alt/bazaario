@@ -380,6 +380,63 @@ const categories: CategorySeed[] = [
     ],
   },
   {
+    name: "Health & Wellness",
+    icon: "heart-pulse",
+    products: [
+      {
+        title: "Digital Blood Pressure Monitor",
+        brand: "VitalCheck",
+        description: "Fully automatic upper-arm BP monitor with irregular heartbeat detection, 2-user memory, and a large backlit display.",
+        price: 1499,
+        mrp: 2299,
+        reviews: [
+          { author: "Ramesh K.", rating: 5, title: "Accurate and easy to use", body: "Readings match what the clinic gets. Cuff is comfortable and the display is easy to read." },
+          { author: "Sunita R.", rating: 4, title: "Good for home monitoring", body: "Works well, just wish the manual was clearer on positioning." },
+        ],
+      },
+      {
+        title: "Multivitamin Tablets for Men & Women (90 Count)",
+        brand: "NutriDaily",
+        description: "Complete daily multivitamin with 25 essential vitamins and minerals, immunity support, and no added sugar.",
+        price: 549,
+        mrp: 899,
+        reviews: [
+          { author: "Priya S.", rating: 5, title: "Noticeable energy boost", body: "Been taking these for a month and feel a lot less sluggish in the afternoons." },
+        ],
+      },
+      {
+        title: "Digital Infrared Thermometer (Non-Contact)",
+        brand: "TempSense",
+        description: "Non-contact forehead thermometer with 1-second readings, fever alarm, and memory for the last 32 readings.",
+        price: 899,
+        mrp: 1499,
+        reviews: [
+          { author: "Farhan A.", rating: 4, title: "Fast and reliable", body: "Quick readings and consistent across multiple tries. Great for a household with kids." },
+        ],
+      },
+      {
+        title: "Pulse Oximeter with LED Display",
+        brand: "VitalCheck",
+        description: "Fingertip pulse oximeter measuring SpO2 and pulse rate in seconds, with a bright LED display for easy reading.",
+        price: 699,
+        mrp: 1199,
+        reviews: [
+          { author: "Anita K.", rating: 5, title: "Works great", body: "Small, portable, and gives quick accurate readings. Battery included too." },
+        ],
+      },
+      {
+        title: "Ayurvedic Immunity Booster Tablets (60 Count)",
+        brand: "NatureRoots",
+        description: "Herbal immunity supplement made with tulsi, giloy, and ashwagandha extracts to support daily wellness.",
+        price: 399,
+        mrp: 649,
+        reviews: [
+          { author: "Deepak H.", rating: 4, title: "Good herbal supplement", body: "Easy to swallow and no aftertaste. Feels like a good addition to my daily routine." },
+        ],
+      },
+    ],
+  },
+  {
     name: "Toys & Games",
     icon: "puzzle",
     products: [

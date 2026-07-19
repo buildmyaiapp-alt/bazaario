@@ -17,6 +17,13 @@ export function Footer() {
           A demo storefront built for learning purposes. Not affiliated with any real e-commerce brand.
           Payments are simulated — no real transactions occur.
         </p>
+        <a
+          href="/Bazario.apk"
+          download
+          className="mt-4 inline-block rounded-md border border-slate-600 px-4 py-2 text-sm font-medium text-white hover:bg-slate-800"
+        >
+          Download Android App (.apk)
+        </a>
       </div>
     </footer>
   );

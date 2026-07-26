@@ -21,6 +21,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Bazario — Everything you need, delivered fast",
   description: "A demo Amazon-style storefront built with Next.js and Firebase.",
+  manifest: "/manifest.json",
+  icons: {
+    icon: "/icons/icon-192.png",
+    apple: "/icons/icon-512.png",
+  },
+};
+
+export const viewport = {
+  themeColor: "#0F172A",
 };
 
 export default async function RootLayout({

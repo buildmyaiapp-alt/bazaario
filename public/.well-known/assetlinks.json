@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.bazario.app",
+      "sha256_cert_fingerprints": [
+        "1D:48:49:AF:C1:32:B9:4F:92:80:DB:21:1D:EA:41:47:10:FA:B6:65:DA:3F:0B:2B:C0:E2:45:23:2F:FD:B6:7A"
+      ]
+    }
+  }
+]
